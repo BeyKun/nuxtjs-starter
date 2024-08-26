@@ -1,7 +1,7 @@
 <template>
     <div>
       <breadcrumbs/>
-      Director Approval
+      Setting Clausul
     </div>
   </template>
   

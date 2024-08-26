@@ -1,7 +1,7 @@
 <template>
     <div>
       <breadcrumbs/>
-      Director Approval
+      Enforce Policy
     </div>
   </template>
   

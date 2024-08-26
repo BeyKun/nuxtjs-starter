@@ -1,7 +1,7 @@
 <template>
     <div>
       <breadcrumbs/>
-      Director Approval
+      Reporting Transaction History
     </div>
   </template>
   

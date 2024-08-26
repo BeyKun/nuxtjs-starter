@@ -1,7 +1,7 @@
 <template>
     <div>
       <breadcrumbs/>
-      Director Approval
+      Work Items
     </div>
   </template>
   

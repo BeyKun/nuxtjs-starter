@@ -1,7 +1,7 @@
 <template>
     <div>
       <breadcrumbs/>
-      Director Approval
+      No Validation Approval
     </div>
   </template>
   

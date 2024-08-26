@@ -1,6 +1,6 @@
 <template>
   <div>
-    <breadcrumbs></breadcrumbs>
+    <breadcrumbs/>
     Policy Automation
   </div>
 </template>

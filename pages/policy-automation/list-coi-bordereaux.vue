@@ -1,7 +1,7 @@
 <template>
     <div>
       <breadcrumbs/>
-      Director Approval
+      List COI Bodreaux
     </div>
   </template>
   

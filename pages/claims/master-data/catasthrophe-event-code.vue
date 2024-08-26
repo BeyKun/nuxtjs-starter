@@ -1,7 +1,7 @@
 <template>
     <div>
       <breadcrumbs/>
-      Director Approval
+      Master Data Catashthrophe Event Code
     </div>
   </template>
   

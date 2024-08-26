@@ -1,7 +1,7 @@
 <template>
     <div>
       <breadcrumbs/>
-      Director Approval
+      Master Data List Movement Type
     </div>
   </template>
   

@@ -16,8 +16,8 @@ const route = useRoute();
 const routeArray = route.fullPath.split('/');
 
 const titleCase = (str) => {
-   var splitStr = str.toLowerCase().split(' ');
-   for (var i = 0; i < splitStr.length; i++) {
+   const splitStr = str.toLowerCase().split(' ');
+   for (let i = 0; i < splitStr.length; i++) {
        // You do not need to check if i is larger than splitStr length, as your for does that for you
        // Assign it back to the array
        splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);     
@@ -27,7 +27,7 @@ const titleCase = (str) => {
 }
 
 const breadcrumbs = computed(() => {
-  let result = [{ name: 'Home', link: '/' }];
+  const result = [{ name: 'Home', link: '/' }];
   for (let i = 1; i < routeArray.length; i++) {
     if (routeArray[i] == '') continue;
     const humanize = titleCase(routeArray[i].replace(/-/g, ' '));

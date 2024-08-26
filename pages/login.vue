@@ -8,13 +8,13 @@
               <label class="label">
                 <span class="label-text">Email</span>
               </label>
-              <input type="email" v-model="email" placeholder="email@example.com" class="input input-bordered" required />
+              <input v-model="email" type="email" placeholder="email@example.com" class="input input-bordered" required >
             </div>
             <div class="form-control mb-4">
               <label class="label">
                 <span class="label-text">Password</span>
               </label>
-              <input type="password" v-model="password" placeholder="********" class="input input-bordered" required />
+              <input v-model="password" type="password" placeholder="********" class="input input-bordered" required >
             </div>
             <div class="form-control">
               <button type="submit" class="btn btn-primary w-full">Login</button>
