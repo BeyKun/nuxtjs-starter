@@ -4,6 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt'],
   app: {
+    pageTransition
+: { name
+: 'page', mode
+: 'out-in' },
     head: {
       link: [
         {
